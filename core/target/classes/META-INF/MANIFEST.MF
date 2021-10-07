@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1633640412309
+Build-Jdk: 1.8.0_292
+Built-By: cmrockwe
+Bundle-Description: This is an empty OSGi Bundle which can be used      
+   to compile and deploy OSGi Services to Sling.        This Bundle can 
+ be deployed using the Profile        "autoInstallBundle" but that shoul
+ d not be used        together with the "ui.apps" Profile "autoInstallAl
+ l"        as they are not deployed the same way and can lead        to 
+ undesired issues during deployment (bundle not        updated or not wo
+ rking at all).
+Bundle-ManifestVersion: 2
+Bundle-Name: Sling User Pages - Core
+Bundle-SymbolicName: org.apache.sling.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: empty;version="1.0.0",org.apache.sling.servlets;uses:="j
+ avax.servlet,org.apache.sling.api,org.apache.sling.api.servlets";versio
+ n="1.0.0",org.apache.sling.users;uses:="org.apache.sling.api,org.apache
+ .sling.api.resource,org.apache.sling.models.annotations";version="1.0.0
+ "
+Import-Package: javax.jcr;version="[2.0,3)",javax.servlet;version="[3.1,
+ 4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.resourc
+ e;version="[2.12,3)",org.apache.sling.api.servlets;version="[2.3,3)",or
+ g.apache.sling.models.annotations;version="[1.5,2)",org.apache.sling.mo
+ dels.annotations.injectorspecific;version="[1.1,2)",org.apache.sling.se
+ rvlets,org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="javax.servlet
+ .Servlet"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.7))"
+Service-Component: OSGI-INF/org.apache.sling.servlets.ByPathServlet.xml,
+ OSGI-INF/org.apache.sling.servlets.ByResourceTypeServlet.xml
+Sling-Model-Packages: org.apache.sling.users
+Tool: Bnd-4.2.0.201903051501

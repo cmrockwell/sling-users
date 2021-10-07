@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Sling User Pages - UI Apps
+Content-Package-Roots: /apps/sling-users,/content/sling-users
+Implementation-Version: 1.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: mixed
+Created-By: Maven Archiver 3.4.0
+Content-Package-Id: org.apache.sling:ui.apps:1.0-SNAPSHOT
+Content-Package-Description: This is an empty JCR Package where the JC
+ R Content
+         can be deployed with.
+

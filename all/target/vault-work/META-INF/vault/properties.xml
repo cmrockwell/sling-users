@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Sling User Pages - All</comment>
+<entry key="createdBy">cmrockwe</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">org.apache.sling.users-all</entry>
+<entry key="created">2021-10-07T17:00:21.238-04:00</entry>
+<entry key="groupId">org.apache.sling</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">org.apache.sling</entry>
+<entry key="description">org.apache.sling - Sling User Pages: All-in-one deployment content package</entry>
+<entry key="artifactId">all</entry>
+</properties>

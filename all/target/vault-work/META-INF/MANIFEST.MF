@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Sling User Pages - All
+Content-Package-Roots: /apps/sling-users/install/core-1.0-SNAPSHOT.jar
+ ,/etc/packages/org.apache.sling/ui.apps-1.0-SNAPSHOT.zip
+Implementation-Version: 1.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Maven Archiver 3.4.0
+Content-Package-Id: org.apache.sling:org.apache.sling.users-all:1.0-SN
+ APSHOT
+Content-Package-Description: org.apache.sling - Sling User Pages: All-
+ in-one deployment content package
+

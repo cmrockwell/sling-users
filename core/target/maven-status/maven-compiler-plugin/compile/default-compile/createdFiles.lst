@@ -1,0 +1,4 @@
+org/apache/sling/servlets/ByResourceTypeServlet.class
+empty/DoesNothing.class
+org/apache/sling/users/SampleRequestModel.class
+org/apache/sling/servlets/ByPathServlet.class
